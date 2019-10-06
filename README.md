@@ -1,4 +1,16 @@
 # firebase
+URL : https://yuta-ueno.web.app/
+
+## Project create
+```
+vue create firebase
+```
+
+## Setup firebase
+```
+cd firebase
+firebase init
+```
 
 ## Project setup
 ```
