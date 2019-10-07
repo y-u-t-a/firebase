@@ -5,8 +5,11 @@
 </template>
 
 <script>
-
 export default {
-  name: 'home'
+  head: {
+    title: {
+      inner: 'Home'
+    }
+  }
 }
 </script>
