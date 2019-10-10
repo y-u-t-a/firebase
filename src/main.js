@@ -1,8 +1,17 @@
 import Vue from 'vue'
 import App from './App.vue'
+import VueHead from 'vue-head'
+import BootstrapVue from 'bootstrap-vue'
+import 'bootstrap/dist/css/bootstrap.css'
+import 'bootstrap-vue/dist/bootstrap-vue.css'
 import router from './router'
 
 Vue.config.productionTip = false
+
+Vue.use(VueHead, {
+  complement: `Yuta Ueno's Page` // 「inner | complement」の形式で title が設定される
+})
+Vue.use(BootstrapVue)
 
 new Vue({
   router,
