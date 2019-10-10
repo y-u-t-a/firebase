@@ -8,9 +8,7 @@ import router from './router'
 
 Vue.config.productionTip = false
 
-Vue.use(VueHead, {
-  complement: `Yuta Ueno's Page` // 「inner | complement」の形式で title が設定される
-})
+Vue.use(VueHead)
 Vue.use(BootstrapVue)
 
 new Vue({
