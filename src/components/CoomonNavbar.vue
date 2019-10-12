@@ -18,5 +18,7 @@ export default {
 </script>
 
 <style>
-
+.nav-item > .router-link-exact-active {
+  border-bottom: solid;
+}
 </style>
