@@ -1,5 +1,5 @@
 <template>
-  <b-navbar type="light" variant="light">
+  <b-navbar class="sticky-top" type="light" variant="light">
     <b-navbar-brand to="/">
       <img alt="icon" src="/assets/30320735.png" width="50px" height="50px"/>
       Yuta Ueno's Page
