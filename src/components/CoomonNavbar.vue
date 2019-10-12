@@ -21,4 +21,7 @@ export default {
 .nav-item > .router-link-exact-active {
   border-bottom: solid;
 }
+nav {
+  border-bottom: 0.5px solid rgba(0, 0, 0, 0.5);
+}
 </style>
