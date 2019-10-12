@@ -6,7 +6,7 @@
 </template>
 
 <script>
-import CoomonNavbar from './components/CoomonNavbar.vue'
+import CoomonNavbar from './components/CommonNavbar.vue'
 export default {
   components: {
     CoomonNavbar
