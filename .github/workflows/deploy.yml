@@ -12,7 +12,7 @@ jobs:
 
     strategy:
       matrix:
-        node-version: [12.x]
+        node-version: [11.x]
 
     steps:
     - uses: actions/checkout@v1
@@ -20,8 +20,10 @@ jobs:
       uses: actions/setup-node@v1
       with:
         node-version: ${{ matrix.node-version }}
-    - name: npm install, build and deploy
+    - name: npm install, build
       run: |
         npm install
         npm run build
-        ./node_modules/.bin/firebase deploy --token=${{ secrets.FIREBASE_TOKEN }}
+    - name: Firebase Deploy
+      run: |
+        npx firebase deploy --token=${{ secrets.FIREBASE_TOKEN }}
