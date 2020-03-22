@@ -10,6 +10,9 @@ import CoomonNavbar from './components/CommonNavbar.vue'
 export default {
   components: {
     CoomonNavbar
+  },
+  metaInfo: {
+    title: `Yuta Ueno's Page`
   }
 }
 </script>
