@@ -1,6 +1,6 @@
 import Vue from 'vue'
 import App from './App.vue'
-import VueHead from 'vue-head'
+import VueMeta from 'vue-meta'
 import BootstrapVue from 'bootstrap-vue'
 import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap-vue/dist/bootstrap-vue.css'
@@ -8,7 +8,7 @@ import router from './router'
 
 Vue.config.productionTip = false
 
-Vue.use(VueHead)
+Vue.use(VueMeta)
 Vue.use(BootstrapVue)
 
 new Vue({
