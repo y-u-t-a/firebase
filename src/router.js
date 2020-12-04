@@ -3,7 +3,6 @@ import Home from './pages/Home.vue'
 import About from './pages/About.vue'
 
 export default new Router({
-  mode: 'history',
   base: process.env.BASE_URL,
   routes: [
     {
