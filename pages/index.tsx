@@ -1,8 +1,10 @@
+import Layout from '../components/Layout'
+
 const Home = () => {
   return (
-    <>
-      <h1>AWS Mock 😺</h1>
-    </>
+    <Layout>
+      <h1>This is a home page</h1>
+    </Layout>
   )
 }
 
