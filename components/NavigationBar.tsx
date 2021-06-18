@@ -5,6 +5,7 @@ import { useRouter } from 'next/router'
 const menues = [
   {link:"/", name: "Home"},
   {link:"/about", name: "About"},
+  {link:"/apps", name: "Apps"},
 ]
 
 const NavigationBar = () => {
