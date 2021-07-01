@@ -41,7 +41,9 @@ const navBarStyle:CSSProperties = {
 
 const navItem = (link:string, name:string) => {
   const router = useRouter()
-  const active = router.asPath === link
+  const active =
+    router.asPath === link
+    || link.length > 1 && router.asPath.startsWith(link)
   const activeStyle:CSSProperties = active? {borderBottom: "solid"} : {}
   return (
     <Nav.Link
